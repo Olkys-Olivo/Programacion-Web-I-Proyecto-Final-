@@ -1,13 +1,76 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>proyecto_final</title>
-  </head>
-  <body>
-    <div id="app"></div>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Contabilidad</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+
+    <main class="main">
+
+        <section class="encabezado">
+            <h1 class="h1">SISTEMA DE CONTABILIDAD</h1>
+
+            <p class="parrafo">
+                Bienvenido al sistema de contabilidad. Seleccione la operación que desea realizar.
+            </p>
+        </section>
+
+       <div class="operacion">
+    <a href="itbis.html" class="menu__link">Cálculo de ITBIS</a>
+    <p class="menu__descripcion">
+        Calcula el impuesto ITBIS de una compra o venta.
+    </p>
+       </div>
+
+<div class="operacion">
+    <a href="nomina.html" class="menu__link">Cálculo de Nómina</a>
+    <p class="menu__descripcion">
+        Calcula el salario neto, deducciones y pago final del empleado.
+    </p>
+</div>
+
+<div class="operacion">
+    <a href="depreciacion.html" class="menu__link">Depreciación de Activos</a>
+    <p class="menu__descripcion">
+        Determina la depreciación de los activos de la empresa.
+    </p>
+</div>
+
+<div class="operacion">
+    <a href="balance.html" class="menu__link">Balance General</a>
+    <p class="menu__descripcion">
+        Muestra la situación financiera de la empresa en un período determinado.
+    </p>
+</div>
+
+<div class="operacion">
+    <a href="estado_resultados.html" class="menu__link">Estado de Resultados</a>
+    <p class="menu__descripcion">
+        Calcula las ganancias o pérdidas obtenidas durante un período.
+    </p>
+</div>
+
+<div class="operacion">
+    <a href="interes_simple.html" class="menu__link">Interés Simple</a>
+    <p class="menu__descripcion">
+        Calcula el interés generado sobre un capital inicial.
+    </p>
+</div>
+
+<div class="operacion">
+    <a href="interes_compuesto.html" class="menu__link">Interés Compuesto</a>
+    <p class="menu__descripcion">
+        Calcula el interés acumulado sobre el capital y los intereses generados.
+    </p>
+</div>
+
+    </main>
+
     <script type="module" src="/src/main.js"></script>
-  </body>
+
+</body>
 </html>

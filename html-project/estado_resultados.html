@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estado de Resultados</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+
+    <main class="main">
+
+        <h1 class="main__title">Estado de Resultados</h1>
+
+        <section class="section">
+
+            <form class="form">
+
+                <fieldset class="datos">
+
+                    <legend>Datos Financieros</legend>
+
+                    <input
+                        type="number"
+                        class="input"
+                        id="ingresos"
+                        placeholder="Total de ingresos">
+
+                    <input
+                        type="number"
+                        class="input"
+                        id="costos"
+                        placeholder="Total de costos">
+
+                    <input
+                        type="number"
+                        class="input"
+                        id="gastos"
+                        placeholder="Total de gastos">
+
+                </fieldset>
+
+                <fieldset class="resultado">
+
+                    <legend>Resultado</legend>
+
+                    <input
+                        type="text"
+                        class="input"
+                        id="utilidadBruta"
+                        placeholder="Utilidad bruta"
+                        readonly>
+
+                    <input
+                        type="text"
+                        class="input"
+                        id="utilidadNeta"
+                        placeholder="Utilidad neta"
+                        readonly>
+
+                </fieldset>
+
+                <button type="button" class="boton">
+                    CALCULAR
+                </button>
+
+                <button type="reset" class="boton">
+                    LIMPIAR
+                </button>
+
+                <a href="index.html" class="volver">
+                    ← Volver al menú principal
+                </a>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+
+</body>
+
+</html>

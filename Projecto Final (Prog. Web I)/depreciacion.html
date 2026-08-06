@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depreciación de Activos</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+
+    <main class="main">
+
+        <h1 class="main__title">Depreciación de Activos</h1>
+
+        <section class="section">
+
+            <form class="form">
+
+                <fieldset class="datos">
+                    <legend>Datos del Activo</legend>
+
+                    <input
+                        type="text"
+                        class="input"
+                        id="activo"
+                        placeholder="Nombre del activo">
+
+                    <input
+                        type="number"
+                        class="input"
+                        id="valorActivo"
+                        placeholder="Valor del activo">
+
+                    <input
+                        type="number"
+                        class="input"
+                        id="valorResidual"
+                        placeholder="Valor residual">
+
+                    <input
+                        type="number"
+                        class="input"
+                        id="vidaUtil"
+                        placeholder="Vida útil (años)">
+
+                </fieldset>
+
+                <fieldset class="resultado">
+
+                    <legend>Resultado</legend>
+
+                    <input
+                        type="text"
+                        class="input"
+                        id="depreciacionAnual"
+                        placeholder="Depreciación anual"
+                        readonly>
+
+                    <input
+                        type="text"
+                        class="input"
+                        id="valorLibro"
+                        placeholder="Valor en libros"
+                        readonly>
+
+                </fieldset>
+
+                <button type="button" class="boton">
+                    CALCULAR
+                </button>
+
+                <button type="reset" class="boton">
+                    LIMPIAR
+                </button>
+
+                <a href="index.html" class="volver">
+                    ← Volver al menú principal
+                </a>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+
+</body>
+
+</html>

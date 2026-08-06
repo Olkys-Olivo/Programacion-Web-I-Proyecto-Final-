@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balance General</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+
+    <main class="main">
+
+        <h1 class="main__title">Balance General</h1>
+
+        <section class="section">
+
+            <form class="form">
+
+                <fieldset class="datos">
+
+                    <legend>Datos Financieros</legend>
+
+                    <input
+                        type="number"
+                        class="input"
+                        id="activos"
+                        placeholder="Total de Activos">
+
+                    <input
+                        type="number"
+                        class="input"
+                        id="pasivos"
+                        placeholder="Total de Pasivos">
+
+                </fieldset>
+
+                <fieldset class="resultado">
+
+                    <legend>Resultado</legend>
+
+                    <input
+                        type="text"
+                        class="input"
+                        id="capital"
+                        placeholder="Capital o Patrimonio"
+                        readonly>
+
+                </fieldset>
+
+                <button type="button" class="boton">
+                    CALCULAR
+                </button>
+
+                <button type="reset" class="boton">
+                    LIMPIAR
+                </button>
+
+                <a href="index.html" class="volver">
+                    ← Volver al menú principal
+                </a>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+
+</body>
+
+</html>
